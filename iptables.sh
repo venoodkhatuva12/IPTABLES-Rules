@@ -1,3 +1,8 @@
+#!/bin/bash
+#Script made for IPTables and Firewalld Configuration
+#Author: Vinod.N K
+#Usage: IPTables Configuration
+#Distro : Linux -Centos, Rhel, and any fedora
 # Modify this file accordingly for your specific requirement.
 # http://www.linuxgeekstuff.com
 
