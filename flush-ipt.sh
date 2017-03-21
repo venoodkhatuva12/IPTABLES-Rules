@@ -1,4 +1,10 @@
-#!/bin/sh
+#!/bin/bash
+#Script made for IPTables and Firewalld Flushing All Rules
+#Author: Vinod.N K
+#Usage: IPTables Flushing All Rules
+#Distro : Linux -Centos, Rhel, and any fedora
+# http://www.linuxgeekstuff.com
+
 echo "Stopping firewall and allowing everyone..."
 ipt="/sbin/iptables"
 ## Failsafe - die if /sbin/iptables not found 
