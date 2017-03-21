@@ -6,6 +6,12 @@
 # Modify this file accordingly for your specific requirement.
 # http://www.linuxgeekstuff.com
 
+#Check whether root user is running the script
+if [ "$(id -u)" != "0" ]; then
+   echo "This script must be run as root" 1>&2
+   exit 1
+fi
+
 # 1. Delete all existing rules
 iptables -F
 
